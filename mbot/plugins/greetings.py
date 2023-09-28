@@ -35,7 +35,7 @@ async def start(client,message):
             text="Bot Channel", url="https://t.me/MohanishX"),
         InlineKeyboardButton(
             text="Repo",
-            url="https://github.com/Mohanish7777777/Spotify-Downloader/"),
+            url="https://github.com/Mohanish7777777/"),
         InlineKeyboardButton(text="Help",callback_data="helphome")
         ],
         [
