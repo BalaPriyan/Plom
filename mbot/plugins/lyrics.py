@@ -22,9 +22,9 @@ async def sng(bot, message):
             await mee.delete()
             await message.reply(rpl)
           except Exception as e:                            
-             await message.reply_text(f"lyrics does not found for `{song}` ", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"https://t.me/Spotify newss")]]))
+             await message.reply_text(f"lyrics does not found for `{song}` ", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"https://t.me/MohanishX")]]))
           finally:
-            await message.reply("Check out @spotify_downloa_bot(music)  @spotifynewss(News)")
+            await message.reply("Developed By MohanishX ❤️")
 
 
 
